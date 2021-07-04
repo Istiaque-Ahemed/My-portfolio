@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 .my-web{
     color:green;
 }
@@ -12,7 +15,7 @@ h1{
 
     color: green;
 }
-section{
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -46,4 +49,33 @@ section{
     background-repeat: no-repeat;
     background-position: right;
 }
+.experiences-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position:left;
+
+}
+.experiences-item{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    padding-left: 30px;
+    border-radius: 10px;
+}
+#full-stakc{
+    border-left: 7px solid;
+    border-image:linear-gradient(green,red,black);
+    border-image-slice: 1;
+}
+#baby-web{
+    border-left: 7px solid;
+    border-image:linear-gradient(green,yellow);
+    border-image-slice: 1;
+}   
+footer p{
+    text-align: center;
+    color: green;
+}
+
 
